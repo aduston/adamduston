@@ -1,0 +1,104 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[overlapped, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+
+\setlength{\textwidth}{6.5in} % Text width of the document
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft.5\hoffset\centerline{\large\bf Adam Duston} % Your name at the top
+ 
+% \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+ 
+\moveleft.5\hoffset\centerline{aduston@gmail.com}% Your address
+\moveleft.5\hoffset\centerline{312-375-9879}
+\moveleft.5\hoffset\centerline{New York City}
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{SUMMARY}  
+
+Entrepreneur and software developer who excels at solving problems in a variety of domains. Highly motivated leader and manager.
+Substantial experience in distributed systems and information retrieval.
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{EXPERIENCE}
+
+{\sl Co-Founder, VP Product Development} \hfill 2012 - Present \\
+Docurated, New York, NY\vspace{2pt}\\
+Led projects and teams while contributing significant volume of code. Responsible for the design, development, UX, performance monitoring, and commercial viability of major product components. Instrumental in building company to \$5MM in ARR and eventual acquisition.
+\begin{itemize}
+\item Developed core search algorithm powering the product, which made novel use of organization activity to rank documents and ensure the most relevant content was surfaced to the user.
+\item Led team of four through the design and creation of a commercially successful large-scale ETL and analytics system on Kafka, Spark, GraphX, Redshift, and Tableau, providing customers critical insights on user behavior with content.
+\item Led team of four in creation and management of a generalized document synchronization framework and over a dozen third-party document system integrations. Designed and implemented rigorous performance metrics, and defined and hit SLAs for synchronization latency.
+\item Designed, developed, and productized automated topic classification system based on a multiclass logistic regression model using bag-of-words features with TF/IDF weighting.
+\item Frequently communicated with customers, constantly transmitting customer reality to the engineering team with great enthusiasm.
+\item As a generalist engineer on a small team, wrote code that runs across our entire stack, including web-based user interfaces, a desktop sync application, and backend processing systems. Automated provisioning and deployment.
+\end{itemize} 
+
+{\sl CTO} \hfill 2010 - 2012 \\
+Amara, amara.org
+\begin{itemize}
+\item Built an award-winning caption and subtitle editor that has been used by The New York Times, Wikipedia, and Mozilla.
+\item Led scaling and architecture, and was responsible for all major technology decisions. Coded across entire stack, from user interface to server-side API logic. Automated provisioning and deployment.
+\end{itemize}
+
+{\sl CEO} \hfill 2008 - 2010 \\
+Langolab
+\begin{itemize}
+\item Founded and built langolab.com, a site that helped visitors learn foreign languages through subtitled online video.
+\item Achieved 3,000 daily unique visitors.
+\item Out of approximately 600 applicants, was among the ten selected to participate in TechStars Boston 2009, the inaugural TechStars Boston class.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	EXTRA-CURRICULAR ACTIVITIES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{EDUCATION} 
+
+University of Chicago \hfill 2003 - 2006 \\
+{\sl Economics, Math, and Computer Science}\vspace{2pt}\\
+Left school two classes short of a B.A. in Economics to pursue entrepreneurial idea. Relevant coursework includes: Honors Analysis, Honors Algebra, Honors Econometrics, Artificial Intelligence, Compilers, Complexity Theory, Systems Programming, Software Construction.
+ 
+
+%----------------------------------------------------------------------------------------
+
+\end{resume}
+\end{document}
