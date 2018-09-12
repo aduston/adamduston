@@ -30,6 +30,10 @@ There are a few other pages that are available, in case the parent wants to see 
 
 *Image here*
 
+^ This works by showing the user the items the school needs. The parent can either purchase one of those items or just donate dollars. If the latter, then the parent is notified of which items the dollars bought.
+
+The system integrates with Venmo and Amazon to enable this -- parents use Venmo to deposit money, then the system orders from Amazon. It charges a small convenience fee.
+
 #### Weekly schedule
 
 *Image here*
